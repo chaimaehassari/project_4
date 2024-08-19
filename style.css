@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+     height:100vh;
+     border-radius: 40px;
+}
+.container h4{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.your-result{
+    background-color:#4534f2;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    justify-content: space-evenly;
+    color: white;
+}
+.circle{
+    background-color: #4926d0;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle h1{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    left:15px;
+    color: white;
+    
+
+}
+.circle h5{
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size:xx-small;
+ color: rgb(209, 199, 199);
+ position: relative;
+ top: 25px;
+ right: 20px;
+ 
+}
+.Summary{
+    background-color: rgb(228, 159, 193);
+    width: 300px;
+    height: 400px;
+    color: rgb(4, 10, 15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    
+}
+.Summary h4 {
+color:#333c5a;
+position: relative;
+right: 90px;
+font-size: medium;
+
+}
+.Reaction{
+    background-color: #fff6f5;
+    display: flex;
+    align-items: baseline;
+    border-radius: 5px;
+    width: 177px;
+    height: 28px;
+    text-align: center;
+}
+.Reaction :first-child{
+    color:#dd7575;
+}
+.Reaction :last-child{
+    color: #7d818e;
+    position: relative;
+    left: 35px;
+}
+.Continue{
+    background-color:#303b59;
+    color: aliceblue;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
